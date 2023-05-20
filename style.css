@@ -1,4 +1,5 @@
 /* BASE */
+/* It does not have a responsive layout yet! */
 
 * {
     font-size: 10px;
@@ -354,6 +355,7 @@ span a:hover {
 .fifth_main {
     display: flex;
     margin-top: 50px;
+    line-height: 23px;
 }
 
 .fifth_header {
@@ -364,7 +366,7 @@ span a:hover {
 
 .fifth_header img {
     border-radius: 5px;
-    width: 80%;
+    width: 90%;
 }
 
 .fifth_container {
@@ -387,3 +389,100 @@ span a:hover {
     font-size: 1.8em;
     color: #9ba2ae;
 }
+
+.fifth_svg {
+    width: 33px;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.lock {
+    background-color: #dbeafe;
+    color: #2563eb;
+}
+
+.prez {
+    background-color: #4a1d96;
+    color: #cabffd;
+}
+
+.code {
+    background-color: #014451;
+    color: #047481;
+}
+
+.fifth_box {
+    display: flex;
+}
+
+.fifth_box_two {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.fifth_box_two h4 {
+    font-size: 2em;
+}
+
+.fifth_box_two a {
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+.a_lock {
+    color: #2563eb;
+}
+
+.a_prez {
+    color: #8d5ff4;
+}
+
+.a_code {
+    color: #0694a2;
+}
+
+.img_lock {
+    width: 25px;
+}
+
+.img_prez {
+    width: 25px;
+}
+
+.img_code {
+    width: 25px;
+}
+
+.a_code:hover,
+.a_lock:hover,
+.a_prez:hover,
+.img_code:hover,
+.img_lock:hover,
+.img_prez:hover {
+    opacity: 0.7;
+}
+
+.align_fifth a {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+#fifth_p {
+    font-size: 1.4em;
+    line-height: 20px;
+}
+
+/* sixth section exercise */
+
+.sixth_main {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;  
+}
+
+.sixth_main .logo {
+    
+}
+
