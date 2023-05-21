@@ -526,6 +526,7 @@ span a:hover {
     background-repeat: no-repeat;
     background-position: 50%;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/coast-house-view.jpg);
+    padding: 20px;
 }
 
 .seventh_box_header {
@@ -564,10 +565,134 @@ span a:hover {
     font-size: 1.7em;
 }
 
-
 .seventh_form {
     background-color: #1f2937;
     display: flex;
     margin: 30px;
-    border-radius: 5px;
+    border-radius: 7px;
+    padding: 18px;
 }
+
+.seventh_svg_main {
+    width: 20px;
+    margin-right: 7px;
+    color: #9ba2ae;
+}
+
+.seventh_svg_main_box {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.label {
+    display: none;
+}
+
+.seventh_location_box {
+    display: flex;
+    align-items: center;
+}
+
+#location-form {
+    background-color: #374151;
+    border: none;
+    font-size: 1.43em;
+    padding: 10px;
+    padding-left: 30px; 
+    border: 1px solid #4b5563;
+    border-radius: 8px;
+}
+
+#range-form {
+    background-color: #374151;
+    border: none;
+    font-size: 1.43em;
+    padding: 10px;
+    padding-left: 30px; 
+    border-radius: 8px;
+    border: 1px solid #4b5563;
+    width: 140px;
+}
+
+.seventh_search {
+    outline: none;
+}
+
+.seventh_search:focus,
+.seventh_search:active {
+    border: 1px solid #1a56db !important;
+    border-radius: 8px;
+}
+
+::placeholder {
+    color: #9ba2ae;
+}
+
+.seventh_range_picker {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.seventh_guests {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+#guests {
+    background-color: #374151;
+    border: none;
+    font-size: 1.43em;
+    padding: 10px;
+    text-align: center; 
+    border-radius: 8px;
+    border: 1px solid #4b5563;
+    width: 100px;
+    color: white;
+}
+
+.seventh_options:focus,
+.seventh_options:active {
+    border: 1px solid #1a56db !important;
+    border-radius: 8px;
+}
+
+.search_button_box {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.search_button {
+    border: none;
+    background-color: #1a56db;
+    padding: 0px 50px;
+    height: 38px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.search_button:hover {
+    background-color: #1545ad;
+}
+
+.search_button p {
+    font-size: 1.4em;
+}
+
+.search_svg {
+    width: 20px;
+    margin-right: 10px;
+}
+

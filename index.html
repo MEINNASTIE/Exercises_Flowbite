@@ -221,29 +221,29 @@
         </div>
             <form action="#" class="seventh_form">
                 <div class="seventh_location">
-                    <label for="location-form" class="">Location</label>
-                    <div class="">
-                        <div class="">
+                    <label for="location-form" class="label">Location</label>
+                    <div class="seventh_location_box">
+                        <div class="seventh_svg_main_box">
                             <svg class="seventh_svg_main" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
                         </div>
-                        <input type="text" id="location-form" class="" placeholder="Search destinations">
+                        <input type="text" id="location-form" class="seventh_search" placeholder="Search destinations">
                     </div>
                 </div>
-                <div date-rangepicker="" class="">
-                          <div class="">
+                <div date-datepicker="" class="seventh_range_picker">
+                          <div class="seventh_svg_main_box">
                               <svg class="seventh_svg_main" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                           </div>
-                          <input name="start" type="text" class="" placeholder="Check in">
+                          <input name="start" type="text" class="seventh_search" placeholder="Check in" id="range-form">
                       </div>
-                    <div class="">
-                      <div class="">
+                    <div class="seventh_range_picker">
+                      <div class="seventh_svg_main_box">
                           <svg class="seventh_svg_main" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                       </div>
-                      <input name="end" type="text" class="" placeholder="Check out">
+                      <input name="end" type="text" class="seventh_search" placeholder="Check out" id="range-form">
                   </div>
                 <div class="seventh_guests">
-                    <label for="guests" class="">Select number of guests</label>
-                    <select id="guests" class="">
+                    <label for="guests" class="label">Select number of guests</label>
+                    <select id="guests" class="seventh_options">
                         <option>Add guests</option>
                         <option>1</option>
                         <option>2</option>
@@ -252,10 +252,12 @@
                         <option>5+</option>
                     </select>
                 </div>
-                <button type="submit" class="">
-                    <svg class="" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
-                    Search
+                <div class="search_button_box">
+                <button type="submit" class="search_button">
+                    <svg class="search_svg" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+                    <p>Search</p>
                 </button>
+                </div>
             </form>
         </div>
     </section>
