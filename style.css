@@ -95,6 +95,7 @@ body {
     color: white;
     font-size: 1.3em;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .first_buttons svg {
@@ -109,7 +110,7 @@ body {
 }
 
 .button_one:hover {
-    opacity: 0.8;
+    background-color: #1545ad;
 }
 
 .button_two {
@@ -295,34 +296,13 @@ span a:hover {
     color: white;
     font-size: 1.3em;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .second_buttons svg {
     width: 30px;
     height: 15px;
     display: block;
-}
-
-.button_one {
-    background-color: #1a56db;
-    margin-right: 15px;
-}
-
-.button_one:hover {
-    opacity: 0.8;
-}
-
-.button_two {
-    border: 1px solid #374151 !important;
-    background-color: #111827;
-}
-
-.button_two:hover {
-    background-color: #374151;
-}
-
-.button_one svg {
-    padding-left: 10px;
 }
 
 .fourth_header {
@@ -356,6 +336,7 @@ span a:hover {
     display: flex;
     margin-top: 50px;
     line-height: 23px;
+    margin-bottom: 100px;
 }
 
 .fifth_header {
@@ -480,9 +461,113 @@ span a:hover {
     display: flex;
     justify-content: space-between;
     margin: 30px;  
+    align-items: flex-start;
 }
 
-.sixth_main .logo {
-    
+.second_box {
+    display: flex;
 }
 
+.footer_sixth {
+    margin-left: 60px;
+}
+
+.footer_sixth h4 {
+    font-size: 1.4em;
+}
+
+.footer_sixth a {
+    color: #9ba2ae;
+    text-decoration: none;
+    font-size: 1.4em;
+    line-height: 35px;
+}
+
+.footer_sixth a:hover {
+    text-decoration: underline;
+}
+
+.sixth_main_small hr {
+    border: 0;
+    height: 1px;
+    background: #374151;
+    margin: 20px 30px;
+}
+
+.footer_sixth_last {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: flex-start;
+}
+
+.social_media_small {
+    display: flex;
+}
+
+.footer_svg {
+    width: 20px;
+    margin-left: 30px;
+    color: #9ba2ae;
+}
+.footer_svg:hover {
+    color: white;
+}
+
+.footer_sixth_last span {
+    font-size: 1.3em;
+    color: #9ba2ae;
+}
+
+/* seventh section exercise */
+
+.seventh_main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/coast-house-view.jpg);
+}
+
+.seventh_box_header {
+    margin: 30px;
+    margin-top: 80px;
+}
+
+.seventh_box_header h2 {
+    font-size: 4.3em;
+    padding: 30px 0;
+}
+
+.seventh_box_header p {
+    font-size: 1.8em;
+    width: 700px;
+    color: #c1c3c8;
+    line-height: 30px;
+}
+
+.seventh_box_header button {
+    margin-top: 30px;
+    border: none;
+    background-color: #1a56db;
+    padding: 15px 23px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.seventh_button:hover {
+    background-color: #1545ad;
+}
+
+.seventh_button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
+}
+
+
+.seventh_form {
+    background-color: #1f2937;
+    display: flex;
+    margin: 30px;
+    border-radius: 5px;
+}
