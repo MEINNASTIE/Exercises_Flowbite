@@ -644,6 +644,7 @@ span a:hover {
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none;
     text-indent: 0.01px;
     text-overflow: '';
 }
@@ -696,3 +697,62 @@ select {
     margin-right: 10px;
 }
 
+/* eighth section exercise */
+
+.eighth_box_one {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.eighth_box_one h2 {
+    font-size: 4em;
+}
+
+.eighth_box_one p {
+    padding-top: 20px;
+}
+
+.eighth_box_one a {
+    font-size: 2.4em;
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 500;
+}
+.eighth_box_one a:hover {
+    color: #1e3a8a;
+}
+
+.img_last {
+    width: 28px;
+    vertical-align: middle;
+}
+
+.eighth_box_two {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 0 30px;
+}
+
+.image1,
+.image2,
+.image3 {
+    width: 30%;
+}
+
+.eighth_box_two img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.eighth_box_two h4 {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+.eighth_box_two p {
+    font-size: 1.5em;
+    margin-top: 15px;
+    color: #9ba2ae;
+    line-height: 25px;
+}
